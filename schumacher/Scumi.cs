@@ -36,7 +36,7 @@ namespace schumacher
         }
         public Scumi(string beolvasottSor) 
         {
-            string[] strings = beolvasottSor.Split(':');
+            string[] strings = beolvasottSor.Split(';');
             Date = DateTime.Parse(strings[0]);
             Grandprix = strings[1];
             Position = int.Parse(strings[2]);
