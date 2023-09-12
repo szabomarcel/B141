@@ -15,8 +15,8 @@ namespace schumacher
         {
             adatokBeolvasasa();
             feladatok3();
-            feladatok4();
-            feladatok5();
+            //feladatok4();
+            //feladatok5();
             Console.WriteLine("Program vége!");
             Console.ReadLine();
         }
