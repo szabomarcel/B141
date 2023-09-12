@@ -16,12 +16,22 @@ namespace ConsoleApp1
             /*Console.Write("Kérem adja meg  az két számot: ");
             szamA = int.Parse(Console.ReadLine());
             szamB = int.Parse(Console.ReadLine());*/
-            Console.Write("Kérem adja meg  az első számot: ");
-            szamA = int.Parse(Console.ReadLine());
-            Console.Write("Kérem adja meg  az második számot: ");
-            szamB = int.Parse(Console.ReadLine());
+            
+            // --Bekérek egy számot 
+            szamA = szamotKer("Kérem adja meg  az első számot: ");
+            
+            // --Bekérek egy számot 
+            szamB = szamotKer("Kérem adja meg  az második számot: ");
             Console.WriteLine("A két szm összege ennyi: " + (szamA + szamB).ToString());
             Console.ReadKey();
+        }
+
+        private static int szamotKer(string szoveg)
+        {
+            int bekertszam;
+            Console.Write(szoveg);
+            bekertszam = int.Parse(Console.ReadLine());
+            return bekertszam;
         }
     }
 }
