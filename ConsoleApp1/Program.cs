@@ -31,7 +31,7 @@ namespace ConsoleApp1
             int bekertszam;
             Console.Write(szoveg);
             bekertszam = int.Parse(Console.ReadLine());
-            return bekertszam;
+            return bekertszam; 
         }
     }
 }
