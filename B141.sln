@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schumacher", "schumacher\sc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Berek2020", "Berek2020\Berek2020.csproj", "{BAF3B5B0-C3E8-4741-B482-2B20D01A6109}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{4DDC631D-3A60-4E6A-9901-E85E572C1E51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BAF3B5B0-C3E8-4741-B482-2B20D01A6109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAF3B5B0-C3E8-4741-B482-2B20D01A6109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAF3B5B0-C3E8-4741-B482-2B20D01A6109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDC631D-3A60-4E6A-9901-E85E572C1E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDC631D-3A60-4E6A-9901-E85E572C1E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDC631D-3A60-4E6A-9901-E85E572C1E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDC631D-3A60-4E6A-9901-E85E572C1E51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
