@@ -23,6 +23,9 @@ namespace Sikidomokorai
                     Kor kor = (Kor)item; // -- Csak így juthatunk az egyedi adathoz, a sugérhoz
                     //Console.WriteLine($"\nAz 1. elem {item.GetType()} - {item}");
                     Console.WriteLine($"A kör Terület: {kor.Terulet()} - Kerület: {kor.Kerulet()} - sugara: {kor.Sugar}");
+                    kor.Kisebb();
+                    kor.Nagyobb();
+                    kor.Vonalvastagsag();
                 }
                 else if (item.GetType().Equals(typeof(Negyzet)))
                 {

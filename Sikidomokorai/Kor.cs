@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sikidomokorai
 {
-    internal class Kor : Sikidomok
+    internal class Kor : Sikidomok, IAtmeterez, IRajzolas
     {
         double sugar;
         double atmero;
@@ -26,6 +26,21 @@ namespace Sikidomokorai
         public override double Terulet()
         {
             return sugar * sugar * Math.PI;
+        }
+
+        public void Kisebb()
+        {
+            Console.WriteLine("Kisebb");
+        }
+
+        public void Nagyobb()
+        {
+            Console.WriteLine("Nagyobb");
+        }
+
+        public void Vonalvastagsag()
+        {
+            Console.WriteLine("Vonalvastagság");
         }
     }
 }
