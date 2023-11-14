@@ -35,8 +35,8 @@
             this.listBox_Orszagok = new System.Windows.Forms.ListBox();
             this.button_terulet_atlag = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton_szazezerfelett = new System.Windows.Forms.RadioButton();
             this.radioButton_legfeljebb_szazezer_meretu = new System.Windows.Forms.RadioButton();
+            this.radioButton_szazezerfelett = new System.Windows.Forms.RadioButton();
             this.button_megszamolas = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox_eredmeny_fajl_neve = new System.Windows.Forms.TextBox();
@@ -106,17 +106,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Mit számoljunk";
             // 
-            // radioButton_szazezerfelett
-            // 
-            this.radioButton_szazezerfelett.AutoSize = true;
-            this.radioButton_szazezerfelett.Location = new System.Drawing.Point(17, 20);
-            this.radioButton_szazezerfelett.Name = "radioButton_szazezerfelett";
-            this.radioButton_szazezerfelett.Size = new System.Drawing.Size(163, 17);
-            this.radioButton_szazezerfelett.TabIndex = 0;
-            this.radioButton_szazezerfelett.TabStop = true;
-            this.radioButton_szazezerfelett.Text = "100 000-nél nagyobb területű";
-            this.radioButton_szazezerfelett.UseVisualStyleBackColor = true;
-            // 
             // radioButton_legfeljebb_szazezer_meretu
             // 
             this.radioButton_legfeljebb_szazezer_meretu.AutoSize = true;
@@ -127,6 +116,17 @@
             this.radioButton_legfeljebb_szazezer_meretu.TabStop = true;
             this.radioButton_legfeljebb_szazezer_meretu.Text = "Legfeljebb 100 000 méretű";
             this.radioButton_legfeljebb_szazezer_meretu.UseVisualStyleBackColor = true;
+            // 
+            // radioButton_szazezerfelett
+            // 
+            this.radioButton_szazezerfelett.AutoSize = true;
+            this.radioButton_szazezerfelett.Location = new System.Drawing.Point(17, 20);
+            this.radioButton_szazezerfelett.Name = "radioButton_szazezerfelett";
+            this.radioButton_szazezerfelett.Size = new System.Drawing.Size(163, 17);
+            this.radioButton_szazezerfelett.TabIndex = 0;
+            this.radioButton_szazezerfelett.TabStop = true;
+            this.radioButton_szazezerfelett.Text = "100 000-nél nagyobb területű";
+            this.radioButton_szazezerfelett.UseVisualStyleBackColor = true;
             // 
             // button_megszamolas
             // 
@@ -194,6 +194,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(418, 319);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 13);
@@ -202,6 +203,7 @@
             // 
             // textBox_Orszag_bevitel
             // 
+            this.textBox_Orszag_bevitel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.textBox_Orszag_bevitel.Location = new System.Drawing.Point(418, 335);
             this.textBox_Orszag_bevitel.Name = "textBox_Orszag_bevitel";
             this.textBox_Orszag_bevitel.Size = new System.Drawing.Size(200, 20);
@@ -210,21 +212,23 @@
             // checkBox_Talalatok_listaban
             // 
             this.checkBox_Talalatok_listaban.AutoSize = true;
+            this.checkBox_Talalatok_listaban.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.checkBox_Talalatok_listaban.Location = new System.Drawing.Point(418, 362);
             this.checkBox_Talalatok_listaban.Name = "checkBox_Talalatok_listaban";
             this.checkBox_Talalatok_listaban.Size = new System.Drawing.Size(164, 17);
             this.checkBox_Talalatok_listaban.TabIndex = 15;
             this.checkBox_Talalatok_listaban.Text = "Találatok kijelölése a listában";
-            this.checkBox_Talalatok_listaban.UseVisualStyleBackColor = true;
+            this.checkBox_Talalatok_listaban.UseVisualStyleBackColor = false;
             // 
             // button_Kereses
             // 
+            this.button_Kereses.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_Kereses.Location = new System.Drawing.Point(418, 385);
             this.button_Kereses.Name = "button_Kereses";
             this.button_Kereses.Size = new System.Drawing.Size(200, 23);
             this.button_Kereses.TabIndex = 16;
             this.button_Kereses.Text = "Keresés";
-            this.button_Kereses.UseVisualStyleBackColor = true;
+            this.button_Kereses.UseVisualStyleBackColor = false;
             // 
             // openFileDialog1
             // 
