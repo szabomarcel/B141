@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sikidomokorai", "Sikidomoko
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAlapok", "WindowsFormsAlapok\WindowsFormsAlapok.csproj", "{808FE188-D03A-49AF-978F-870DEB70E296}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iranyitoszam", "iranyitoszam\iranyitoszam.csproj", "{AE603FBB-5C47-461F-BB52-E2BDF2330DD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{808FE188-D03A-49AF-978F-870DEB70E296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{808FE188-D03A-49AF-978F-870DEB70E296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{808FE188-D03A-49AF-978F-870DEB70E296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE603FBB-5C47-461F-BB52-E2BDF2330DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE603FBB-5C47-461F-BB52-E2BDF2330DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE603FBB-5C47-461F-BB52-E2BDF2330DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE603FBB-5C47-461F-BB52-E2BDF2330DD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
