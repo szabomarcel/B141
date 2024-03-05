@@ -11,7 +11,7 @@ namespace iranyitoszam
     internal class Program
     {
         static PostaCode postCode = null;
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             string keresettIranyitoszam = "4200";
             await irszam(keresettIranyitoszam);
