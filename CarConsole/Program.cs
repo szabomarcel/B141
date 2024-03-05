@@ -13,9 +13,9 @@ namespace CarConsole
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            car();
+            await car();
             Console.WriteLine("Car name: ");
             Console.ReadLine();
         }
