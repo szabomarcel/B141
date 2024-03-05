@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "book", "book\book.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarConsole", "CarConsole\CarConsole.csproj", "{799A2CF5-A1F0-4B21-AC6B-DB2857F1876C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School", "School\School.csproj", "{5533E501-D657-4823-B6A2-B2D458EDC415}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{799A2CF5-A1F0-4B21-AC6B-DB2857F1876C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{799A2CF5-A1F0-4B21-AC6B-DB2857F1876C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{799A2CF5-A1F0-4B21-AC6B-DB2857F1876C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5533E501-D657-4823-B6A2-B2D458EDC415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5533E501-D657-4823-B6A2-B2D458EDC415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5533E501-D657-4823-B6A2-B2D458EDC415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5533E501-D657-4823-B6A2-B2D458EDC415}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
